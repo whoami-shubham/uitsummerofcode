@@ -11,7 +11,7 @@ export default class Leaderboard extends Component {
          "commits":0,
          "added":0
     }
-     Url ="https://raw.githubusercontent.com/whoami-shubham/Summer_of_Code/master/leaderboard.json";
+     Url ="https://raw.githubusercontent.com/summerofcodeatuit/2019/master/leaderboard.json";
     constructor(){
         super()
         this.state = {
@@ -55,18 +55,18 @@ export default class Leaderboard extends Component {
       }
    const header = (
          <div className="container">
-               <div className="row leaderboard-header">
-                  <div className="col-3 px-3" onClick={(name)=>this.sort_by('name')}>
-                        <span className="badge  badge-primary p-2">Name</span>
+               <div className="row leaderboard-header badge-primary">
+                  <div className="col-3" onClick={(name)=>this.sort_by('name')}>
+                        <span className="badge  p-2" title="click to sort by Name">Name</span>
                   </div>
-                  <div className="col-3 px-3" onClick={(name)=>this.sort_by('git_id')}>
-                        <span className="badge  badge-primary p-2">Github Username</span>
+                  <div className="col-3" onClick={(name)=>this.sort_by('git_id')}>
+                        <span className="badge  p-2" title="click to sort by username">Github Username</span>
                   </div>
-                  <div className="col-3 px-3" onClick={(name)=>this.sort_by('commits')}>
-                        <span className="badge  badge-primary p-2">Commits</span>
+                  <div className="col-3" onClick={(name)=>this.sort_by('commits')}>
+                        <span className="badge  p-2" title="click to sort by commits">Commits</span>
                   </div>
-                  <div className="col-3 px-3" onClick={(name)=>this.sort_by('added')}>
-                        <span className="badge  badge-primary p-2">Lines added/removed</span>
+                  <div className="col-3" onClick={(name)=>this.sort_by('added')}>
+                        <span className="badge  p-2" title="click to sort by lines added">Lines <br/> +  - </span>
                   </div>
                </div>
                {users}

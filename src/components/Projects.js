@@ -28,9 +28,9 @@ export default class Projects extends Component {
   render() {
          let  projects=null;
           if(!this.state.isloading){
-            console.log(this.state.projects.data)
+           // console.log(this.state.projects.data)
              projects = Object.values(this.state.projects.data).map((project,i)=>{
-              console.log(typeof project)
+              //console.log(typeof project)
               return <Project key={i} data={project}/>;
          })
           }

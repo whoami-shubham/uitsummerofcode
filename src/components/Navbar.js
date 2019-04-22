@@ -6,7 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
         
-                <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
+                <nav className="navbar navbar-expand-lg navbar-light shadow-sm ">
                     <Link to="/home" className="nav-link brand code nav-item"><img src={logo} alt="logo" className="logo"/> Summer of Code</Link>  
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon">
