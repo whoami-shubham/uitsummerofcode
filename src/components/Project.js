@@ -13,11 +13,11 @@ export default class Project extends Component {
         <div className="col-sm-3 m-3 card">
           <div className="card-body">
             <h5 className="card-title line">{this.props.data.name}</h5>
-            <p className="card-text line">{this.props.data.des}
-              <br/>
+            <p className="card-text line justify">{this.props.data.des}</p>
+            <p className="card-text line justify">
               <span>Mentored by : <a href={this.props.data.profile_url}>{this.props.data.mentor}</a></span>
-            </p>
-            <div className="tools line">
+              </p>
+            <div className="tools line justify">
                 {tech}
             </div>
             <a href={this.props.data.url} className="btn btn-primary">details</a>

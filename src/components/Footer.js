@@ -6,11 +6,12 @@ export default class Footer extends Component {
       <div>
          <div className="col-sm-12 last">
             <div className="container">
-                    <div className="col-sm-12 font">
-                        <span className="last_footer"><Link to="/we" style={link}> We </Link></span>
+                    <div className="col-sm-12">
+                        <span className="last_footer"><a href="https://github.com/uitsummerofcode" style={link}> We </a></span>
                         <span className="last_footer"><Link to="/privacy" style={link}>privacy</Link></span>
-                        <span className="last_footer"><Link to="/rules" style={link}> rules </Link></span>
-                        <span className="last_footer"><Link to="/help" style={link}> help</Link></span>
+                        <span className="last_footer"><a href="https://github.com/summerofcodeatuit/2019/issues/new?assignees=&labels=help+wanted&template=help.md&title=" style={link}> help</a></span>
+                        <span className="last_footer"><Link to="/students" style={link}>students</Link></span>
+                        <span className="last_footer"><Link to="/mentors" style={link}>mentors</Link></span>
                     </div>
             </div>
         </div>

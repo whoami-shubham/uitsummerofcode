@@ -11,7 +11,7 @@ export default class Leaderboard extends Component {
          "commits":0,
          "added":0
     }
-     Url ="https://raw.githubusercontent.com/whoami-shubham/Summer_of_Code/master/leaderboard.json";
+     Url ="https://raw.githubusercontent.com/summerofcodeatuit/2019/master/leaderboard.json";
     constructor(){
         super()
         this.state = {

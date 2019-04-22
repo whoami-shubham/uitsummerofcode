@@ -5,7 +5,8 @@ import image from '../images/home3.jpg'
 
 export default class Home extends Component {
   render() {
-    
+    console.log("%c Welcome To Summer Of Code !", "background: black; color: green; font-size: xx-large");
+
     return (
         <div>
             <Navbar />
@@ -19,17 +20,17 @@ export default class Home extends Component {
                 <p className="text-center t m-3">Major Goals of  Program</p>
                     <div className="title m-2 card black p-10">
                         <ul className="list-group list-group-flush">
-                        <li className="list-group-item">1. Inspire young developers to get involved in Open Source software 
+                        <li className="list-group-item">&#9679; Inspire young developers to get involved in Open Source software 
                           development.</li>
-                          <li className="list-group-item">2. Help 1st and 2nd year students to master the development workflow of
+                          <li className="list-group-item">&#9679; Help 1st and 2nd year students to master the development workflow of
                           Git and GitHub.</li>
-                          <li className="list-group-item">3. Connect with the mentors in the campus, help them  in projects even
+                          <li className="list-group-item">&#9679; Connect with the mentors in the campus, help them  in projects even
                           after the program ends.</li>
-                          <li className="list-group-item">4. Prepare for other Open Source programs</li>
+                          <li className="list-group-item">&#9679; Prepare for other Open Source programs</li>
                         </ul>
                       </div>
                   </div>
-                  <div className="row m-3">
+                  <div className="row m_3 mx_4">
                     <button className="btn btn-primary m-2"><a href="https://github.com/whoami-shubham/Summer_of_Code/blob/master/Student.md" className="link_white">Student Guide</a></button> <button className="btn btn-primary m-2"><a href="https://github.com/whoami-shubham/Summer_of_Code/blob/master/Mentor.md" className="link_white">Mentor Guide</a></button>
                   </div>
             </div>
@@ -38,6 +39,7 @@ export default class Home extends Component {
         </div>
      
     )
+
   }
 }
 

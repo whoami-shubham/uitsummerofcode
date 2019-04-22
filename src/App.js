@@ -11,6 +11,8 @@ import Resources from './components/Resources'
 import Contact from './components/Contact'
 import Help from './components/Help'
 import Leaderboard from './components/Leaderboard'
+import Students from './components/Students';
+import Mentors from './components/Mentors';
 
 
 class App extends Component {
@@ -30,6 +32,8 @@ class App extends Component {
             <Route path="/contact"  component={Contact} />
             <Route path="/help"  component={Help} />
             <Route path="/leaderboard"  component={Leaderboard} />
+            <Route path="/students"  component={Students} />
+            <Route path="/mentors"  component={Mentors} />
          </div>
       </Router>
     );
